@@ -13,7 +13,14 @@ git clone https://github.com/trevorxander/MTA-Turnstile.git
 2 . Install the dependancies.
 
 ```
-pip3 install ./MTA-Turnstile
+pip3 install MTA-Turnstile
+```
+<br>
+
+3 . Run the visualizer
+
+```
+python3 MTA-Turnstile/mta.py
 ```
 <br>
 
