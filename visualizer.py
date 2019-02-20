@@ -14,6 +14,8 @@ if __name__ == '__main__':
     st59_data = turnstile_data[turnstile_data[col] == filter_value]
     entry_exit_data = st59_data.groupby(by=graph_x).sum()
 
+    print(entry_exit_data)
+
     ax = entry_exit_data[graph_y].plot()
     ax.set_xticklabels([])
     ax.set_ylabel(graph_y)
